@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80")
+      no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  color: #f08a9f;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  font-size: 1.4em;
+  margin: 1.2em;
+  font-weight: bolder;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  color: #f08a9f;
+  display: flex;
+  align-items: center;
+  margin: 1.2em;
+  height: 70px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #e7dbcc;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 275px auto;
+}
+
+h1 {
+  color: #e7dbcc;
+  margin-bottom: 0.4em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+p {
+  color: #f08a9f;
+  margin-bottom: 1.6em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-size: 1.2em;
+}
+
+button {
+  background: #e7dbcc54;
+  font-size: 1.2em;
+  padding: 12px 45px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background: #f08a9e5d;
+  transform: translateY(10px);
+}
